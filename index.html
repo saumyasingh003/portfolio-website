@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rahul- Developer Potfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Merriweather:ital,wght@1,900&family=Roboto+Condensed:ital,wght@1,700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+      }
+      body {
+        background-color: black;
+        color: azure;
+        /*font-family: "Lilita One", cursive;*/
+        font-family: "Merriweather", serif;
+        /*font-family: 'Roboto Condensed', sans-serif;*/
+      }
+      nav {
+        display: flex;
+        position: fixed;
+        justify-content: space-around;
+        align-items: center;
+        height: 100px;
+        background-color: rgb(45, 44, 44);
+        width: 100%;
+        top: 0;
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0px 30px;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+      nav ul li a:hover {
+        color: grey;
+        font-size: 1.08rem;
+      }
+      main hr {
+        background-color: aliceblue;
+        border: 0;
+        height: 1.2px;
+        margin: 60px 84px;
+      }
+
+      .left {
+        font-size: 1.7rem;
+      }
+      .firstsection {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 50px 0px;
+      }
+      .firstsection > div {
+        width: 30%;
+      }
+      .left-section {
+        margin: 100px 0px;
+        font-size: 3rem;
+        /*background-color: brown;*/
+      }
+      .left-section .buttons{
+        padding: 50px 0;
+      }
+      .left-section .btn {
+        color: white;
+        padding: 12px;
+        border-radius: 23px;
+        border: 4px solid whitesmoke;
+        background-color: dimgrey;
+        font-size: 20px;
+        cursor: pointer;
+      }
+      .right-section img {
+        width: 80%;
+        margin: 50px 0px;
+      }
+      .grey {
+        color: rgb(115, 113, 113);
+      }
+      #element {
+        color: rgb(115, 113, 113);
+      }
+      .secondsection {
+        height: 80vh;
+        max-width: 80vw;
+        margin: auto;
+      }
+      .secondsection h1 {
+        font-size: 1.9rem;
+      }
+      .text-grey {
+        color: grey;
+      }
+      .secondsection .box {
+        background: antiquewhite;
+        width: 80vw;
+        height: 2px;
+        margin: 52px 0px;
+        display: flex;
+      }
+      .secondsection .vertical {
+        height: 93px;
+        width: 1px;
+        background-color: white;
+        box-shadow: 2px 2px 2px wheat;
+        margin: 0 100px;
+      }
+      .image-top {
+        width: 34px;
+        position: relative;
+        top: -32px;
+        left: -9px;
+      }
+      .vertical-title {
+        position: relative;
+        top: 75px;
+      }
+      .vertical-desc {
+        position: relative;
+        top: 80px;
+        color: grey;
+        font-size: 13px;
+      }
+      .vertical-content {
+        width: 10rem;
+      }
+      footer {
+        background-color: grey;
+      }
+      .flex {
+        padding: 23px 233px;
+        justify-content: space-evenly;
+        display: flex;
+      }
+      .flex ul {
+        list-style: none;
+      }
+      .flex > div {
+        width: 133px;
+      }
+      footer .footer-rights {
+        text-align: center;
+        color: black;
+        padding: 12px 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Rahul's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about.html">About</a></li>
+            <li><a href="/services.html">Services</a></li>
+            <li><a href="/projects.html">Projects</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstsection">
+        <div class="left-section">
+          Hi, I am
+          <span class="grey">Rahul Birla</span>,
+          <div>and I am a Passionate</div>
+          <span id="element"></span>
+          <div class="buttons">
+            <button class="btn">Download Resume</button>
+            <button class="btn">Github</button>
+          </div>
+        </div>
+
+        <div class="right-section">
+          <img src="images/bg-removebg-preview.png" alt="err" />
+        </div>
+      </section>
+      <hr />
+      <section class="secondsection">
+        <span class="text-grey">What have I done so Far...</span>
+        <h1>Work Experience</h1>
+        <div class="box">
+          <div class="vertical">
+            <img class="image-top" src="images/dev1.png" alt="" />
+            <div class="vertical-content">
+              <div class="vertical-title">HTML Developer (2012-2014)</div>
+              <div class="vertical-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+                reprehenderit consequatur odit possimus laudantium, fuga quaerat
+                dolore cum molestias debitis deserunt? Ea, labore explicabo
+                quaerat expedita dicta aliquam!
+              </div>
+            </div>
+          </div>
+
+          <div class="vertical">
+            <img class="image-top" src="images/dev1.png" alt="" />
+            <div class="vertical-content">
+              <div class="vertical-title">React.js Developer (2014-2015)</div>
+              <div class="vertical-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+                reprehenderit consequatur odit possimus laudantium, fuga quaerat
+                dolore cum molestias debitis deserunt? Ea, labore explicabo
+                quaerat expedita dicta aliquam!
+              </div>
+            </div>
+          </div>
+
+          <div class="vertical">
+            <img class="image-top" src="images/dev1.png" alt="" />
+            <div class="vertical-content">
+              <div class="vertical-title">Next.js Developer (2015-2017)</div>
+              <div class="vertical-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+                reprehenderit consequatur odit possimus laudantium, fuga quaerat
+                dolore cum molestias debitis deserunt? Ea, labore explicabo
+                quaerat expedita dicta aliquam!
+              </div>
+            </div>
+          </div>
+
+          <div class="vertical">
+            <img class="image-top" src="images/dev1.png" alt="" />
+            <div class="vertical-content">
+              <div class="vertical-title">Android Developer (2017-2019)</div>
+              <div class="vertical-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+                reprehenderit consequatur odit possimus laudantium, fuga quaerat
+                dolore cum molestias debitis deserunt? Ea, labore explicabo
+                quaerat expedita dicta aliquam!
+              </div>
+            </div>
+          </div>
+
+          <div class="vertical">
+            <img class="image-top" src="images/dev1.png" alt="" />
+            <div class="vertical-content">
+              <div class="vertical-title">Angular Developer (2019-2021)</div>
+              <div class="vertical-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+                reprehenderit consequatur odit possimus laudantium, fuga quaerat
+                dolore cum molestias debitis deserunt? Ea, labore explicabo
+                quaerat expedita dicta aliquam!
+              </div>
+            </div>
+          </div>
+
+          <div class="vertical">
+            <img class="image-top" src="images/dev1.png" alt="" />
+            <div class="vertical-content">
+              <div class="vertical-title">Node.js Developer (2021-2022)</div>
+              <div class="vertical-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+                reprehenderit consequatur odit possimus laudantium, fuga quaerat
+                dolore cum molestias debitis deserunt? Ea, labore explicabo
+                quaerat expedita dicta aliquam!
+              </div>
+            </div>
+          </div>
+
+          <div class="vertical">
+            <img class="image-top" src="images/dev1.png" alt="" />
+            <div class="vertical-content">
+              <div class="vertical-title">Senior Consultant(2023-Present)</div>
+              <div class="vertical-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+                reprehenderit consequatur odit possimus laudantium, fuga quaerat
+                dolore cum molestias debitis deserunt? Ea, labore explicabo
+                quaerat expedita dicta aliquam!
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="flex">
+        <div class="footer-first">
+          <h3>Rahul's Developer Portfolio</h3>
+        </div>
+        <div class="footer-second">
+          <ul>
+            <li>home</li>
+            <li>about</li>
+            <li>contact</li>
+            <li>services</li>
+          </ul>
+        </div>
+        <div class="footer-third">
+          <ul>
+            <li>home</li>
+            <li>about</li>
+            <li>contact</li>
+            <li>services</li>
+          </ul>
+        </div>
+        <div class="footer-fourth">
+          <ul>
+            <li>home</li>
+            <li>about</li>
+            <li>contact</li>
+            <li>services</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-rights">
+        Copyright&#169;www.rahulsportportfolio.com ||All Rights Reserved
+      </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "Web Developer",
+          "Video Editor",
+          "Graphic Designer",
+          "Web Designer",
+        ],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
